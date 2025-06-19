@@ -1,9 +1,11 @@
+namespace WishListApi.Repositories;
+
 using Microsoft.EntityFrameworkCore;
 using WishListApi.Data;
 using WishListApi.Models;
 using WishListApi.Repositories.Interfaces;
 
-class WishRepository(ApplicationDbContext dbContext) : IWishRepository
+public class WishRepository(ApplicationDbContext dbContext) : IWishRepository
 {
     public async Task<Wish> AddWish(Wish wish)
     {
