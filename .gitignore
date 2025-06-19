@@ -1,0 +1,43 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+
+# Visual Studio
+.vs/
+*.vscode/
+*.vspscc
+*.vssscc
+.vscode/*
+
+# IDE - JetBrains Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]uild/
+
+# Dependencies
+node_modules/
+packages/
+
+# Environment files
+*.env
+appsettings.*.json
+!appsettings.json
+!appsettings.Example.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*

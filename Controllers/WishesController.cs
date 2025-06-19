@@ -50,8 +50,4 @@ public class WishesController(WishRepository wishRepository) : ControllerBase
         if (updatedWish == null) return NotFound();
         return Ok(updatedWish);
     }
-
-
-
-
 }
